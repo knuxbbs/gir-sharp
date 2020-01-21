@@ -1,0 +1,261 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestFiles\Gtk2\Atk-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Avahi-0.6.gir" />
+    <None Remove="TestFiles\Gtk2\AvahiCore-0.6.gir" />
+    <None Remove="TestFiles\Gtk2\cairo-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Cally-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Clutter-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\ClutterX11-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Cogl-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\DBus-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\DBusGLib-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\fontconfig-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\freetype2-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GConf-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\Gda-4.0.gir" />
+    <None Remove="TestFiles\Gtk2\Gdaui-4.0.gir" />
+    <None Remove="TestFiles\Gtk2\Gdk-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GdkPixbuf-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GdkX11-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\Gio-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GIRepository-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GL-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\GLib-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GMenu-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GModule-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GObject-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GSSDP-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Gtk-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GtkClutter-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\GtkSource-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\GUPnP-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\JSCore-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Json-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\libxml2-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\Notify-0.7.gir" />
+    <None Remove="TestFiles\Gtk2\Pango-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\PangoCairo-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\PangoFT2-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\PangoXft-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Polkit-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\Soup-2.4.gir" />
+    <None Remove="TestFiles\Gtk2\SoupGNOME-2.4.gir" />
+    <None Remove="TestFiles\Gtk2\Vte-0.0.gir" />
+    <None Remove="TestFiles\Gtk2\WebKit-1.0.gir" />
+    <None Remove="TestFiles\Gtk2\xfixes-4.0.gir" />
+    <None Remove="TestFiles\Gtk2\xft-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\xlib-2.0.gir" />
+    <None Remove="TestFiles\Gtk2\xrandr-1.3.gir" />
+    <None Remove="TestFiles\Gtk3\Atk-1.0.gir" />
+    <None Remove="TestFiles\Gtk3\cairo-1.0.gir" />
+    <None Remove="TestFiles\Gtk3\Gdk-3.0.gir" />
+    <None Remove="TestFiles\Gtk3\GdkPixbuf-2.0.gir" />
+    <None Remove="TestFiles\Gtk3\GIMarshallingTests-1.0.gir" />
+    <None Remove="TestFiles\Gtk3\Gio-2.0.gir" />
+    <None Remove="TestFiles\Gtk3\GLib-2.0.gir" />
+    <None Remove="TestFiles\Gtk3\GModule-2.0.gir" />
+    <None Remove="TestFiles\Gtk3\GObject-2.0.gir" />
+    <None Remove="TestFiles\Gtk3\Gtk-3.0.gir" />
+    <None Remove="TestFiles\Gtk3\Pango-1.0.gir" />
+    <None Remove="TestFiles\Gtk3\xlib-2.0.gir" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="TestFiles\Gtk2\Atk-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Avahi-0.6.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\AvahiCore-0.6.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\cairo-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Cally-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Clutter-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\ClutterX11-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Cogl-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\DBus-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\DBusGLib-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\fontconfig-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\freetype2-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GConf-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Gda-4.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Gdaui-4.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Gdk-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GdkPixbuf-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GdkX11-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Gio-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GIRepository-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GL-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GLib-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GMenu-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GModule-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GObject-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GSSDP-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Gtk-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GtkClutter-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GtkSource-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\GUPnP-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\JSCore-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Json-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\libxml2-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Notify-0.7.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Pango-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\PangoCairo-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\PangoFT2-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\PangoXft-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Polkit-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Soup-2.4.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\SoupGNOME-2.4.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\Vte-0.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\WebKit-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\xfixes-4.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\xft-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\xlib-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk2\xrandr-1.3.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\Atk-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\cairo-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\Gdk-3.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\GdkPixbuf-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\GIMarshallingTests-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\Gio-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\GLib-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\GModule-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\GObject-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\Gtk-3.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\Pango-1.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestFiles\Gtk3\xlib-2.0.gir">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gir.Core\Gir.Core.csproj" />
+  </ItemGroup>
+
+</Project>

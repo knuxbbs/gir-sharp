@@ -65,7 +65,7 @@ namespace Gir.Tests
 			}
 		}
 
-		protected static (String Name, Stream stream, string includeDirectory) GetGirFile (string name)
+		protected static (string Name, Stream stream, string includeDirectory) GetGirFile (string name)
 		{
 			var framework = GetLibraryFromGirFile (name);
 			return GetResourceStreams (name).Single ();

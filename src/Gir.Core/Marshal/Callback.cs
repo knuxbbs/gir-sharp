@@ -1,5 +1,4 @@
-﻿using System;
-namespace Gir
+﻿namespace Gir
 {
 	public partial class Callback : ISymbol
 	{

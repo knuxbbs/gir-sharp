@@ -1,4 +1,3 @@
-using System;
 namespace Gir
 {
 	public partial class Callback : IGeneratable, IMethodLike
