@@ -15,6 +15,7 @@ namespace Gir
             }
 
             var opt = new OptionSet();
+
             foreach (string arg in args)
                 ParseArg(opt, arg);
 
@@ -36,29 +37,6 @@ namespace Gir
 
             genOpts.Statistics.ReportStatistics();
             return 0;
-        }
-
-        class OptionSet
-        {
-            public string CustomGeneratedAssemblyName;
-            public string OutputDirectory = "generated";
-
-            public string GeneratedAssemblyName => CustomGeneratedAssemblyName ?? GenerationRepository.Namespace.Name;
-            public string IncludeSearchDirectory = GetDefaultSearchDirectory();
-
-            public Repository GenerationRepository;
-            public IEnumerable<Repository> AllRepositories;
-
-            public string custom_dir = "";
-            public string glue_filename = "";
-            public string glue_includes = "";
-            public string gluelib_name = "";
-
-            static string GetDefaultSearchDirectory()
-            {
-                // if (IsLinux)
-                return "/usr/share/gir-1.0/";
-            }
         }
 
         const string customOutputDir = "--outdir=";
@@ -107,6 +85,29 @@ namespace Gir
             {
                 opt.IncludeSearchDirectory = arg.Substring(customIncludeDirArg.Length);
                 return;
+            }
+        }
+
+        class OptionSet
+        {
+            public string CustomGeneratedAssemblyName;
+            public string OutputDirectory = "generated";
+
+            public string GeneratedAssemblyName => CustomGeneratedAssemblyName ?? GenerationRepository.Namespace.Name;
+            public string IncludeSearchDirectory = GetDefaultSearchDirectory();
+
+            public Repository GenerationRepository;
+            public IEnumerable<Repository> AllRepositories;
+
+            public string custom_dir = "";
+            public string glue_filename = "";
+            public string glue_includes = "";
+            public string gluelib_name = "";
+
+            static string GetDefaultSearchDirectory()
+            {
+                // if (IsLinux)
+                return "/usr/share/gir-1.0/";
             }
         }
     }

@@ -2,8 +2,8 @@
 
 namespace Gir
 {
-	public partial class Repository
-	{
-		public IEnumerable<IGeneratable> GetGeneratables () => Namespace.GetGeneratables ();
-	}
+    public partial class Repository
+    {
+        public IEnumerable<IGeneratable> GetGeneratables() => Namespace.GetGeneratables();
+    }
 }
