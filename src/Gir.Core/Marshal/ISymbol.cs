@@ -1,5 +1,4 @@
-﻿
-namespace Gir
+﻿namespace Gir
 {
 	public interface ISymbol
 	{

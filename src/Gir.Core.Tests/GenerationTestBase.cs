@@ -50,7 +50,6 @@ namespace Gir.Tests
 
         protected static (string Name, Stream stream, string includeDirectory) GetGirFile(string name)
         {
-            var framework = GetLibraryFromGirFile(name);
             return GetResourceStreams(name).Single();
         }
 
@@ -92,6 +91,7 @@ namespace Gir.Tests
             var assembly = Assembly.GetExecutingAssembly();
 
             var names = assembly.GetManifestResourceNames();
+
             foreach (var resName in names)
             {
                 if (string.IsNullOrEmpty(resName) || resName.EndsWith(name + ".gir", StringComparison.OrdinalIgnoreCase))

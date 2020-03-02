@@ -1,5 +1,4 @@
-﻿
-namespace Gir
+﻿namespace Gir
 {
 	public partial class Enumeration : ISymbol
 	{
