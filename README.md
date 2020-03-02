@@ -15,7 +15,7 @@
 - [ ] Class - Stubbed out
 - [ ] Constant
 - [ ] Constructor - Stubbed out
-- [x] Documentation - Done via `IndentWriter.WriteDocumentation`, needs a bit of rework (`IPreGeneratable` and do it automatically in `IGeneratable` extensions
+- [x] Documentation - Done via `IndentWriter.WriteDocumentation`, needs a bit of rework (`IPreGeneratable` and do it automatically in `IGeneratable` extensions)
 - [x] Enumeration
 - [ ] Field
 - [ ] Function
